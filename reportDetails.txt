@@ -1,0 +1,34 @@
+For yolo3 time required for prediction for each image is around 300 millisecond. time sometimes vary from 200 millisecond to 500 millisecond
+
+
+
+PS: for yolo3 weight file is not included in the directory. TO run the code we have to download weight file from  https://pjreddie.com/media/files/yolov3.weights
+
+
+For yolo3 time required for prediction for each image is around 300 millisecond. time sometimes vary from 200 millisecond to 500 millisecond
+
+
+
+PS: 1)for yolo3 weight file is not included in the directory. TO run the code we have to download weight file from  https://pjreddie.com/media/files/yolov3.weights
+
+2) images folder contains test images
+3) output/images folder contains output of image detection algorithm
+4) recording folder contains screen recording of yolo project execution
+
+5) research paper is of yolo v3
+
+
+
+
+Execution details:
+
+1) to detect images:
+	python detection.py <path of image or directory contating images>
+	if path is not given then images from images directory are selected
+
+2) for live detection on webcam
+
+	python webcam.py
+
+
+ 
